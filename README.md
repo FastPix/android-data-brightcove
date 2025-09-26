@@ -134,4 +134,4 @@ Include the XML code below to integrate Brightcove with FastPix:
 ```
 # Detailed Usage:
 
-For more detailed steps and advanced usage, please refer to the official [FastPix Documentation](https://docs.fastpix.io/docs/exo-player-android).
+For more detailed steps and advanced usage, please refer to the official [FastPix Documentation](https://docs.fastpix.io/docs/monitor-brightcove-player-android).
