@@ -22,8 +22,14 @@ dependencyResolutionManagement {
         maven {
             url = uri("https://maven.pkg.github.com/FastPix/android-data-androidXmedia3")
             credentials {
-                username = "your_github_username"
-                password = "your_github_token"
+                val props = java.util.Properties()
+                val localPropsFile = file("${rootDir}/local.properties")
+
+                if (localPropsFile.exists()) {
+                    props.load(localPropsFile.inputStream())
+                }
+                username = props.getProperty("gpr.user")
+                password = props.getProperty("gpr.key")
             }
         }
     }
@@ -31,4 +37,3 @@ dependencyResolutionManagement {
 
 rootProject.name = "Brightcove"
 include(":app")
-include(":brightcove")
