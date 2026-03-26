@@ -54,4 +54,4 @@ dependencies {
 ```
 
 ## Usage 
-For usage do check [app](app) module of this project.
+For usage do check [MainActivity.kt](app/src/main/java/io/fastpix/data/brightcove/demo/MainActivity.kt) module of this project.
