@@ -23,7 +23,7 @@ This SDK simplifies the integration process with Brightcove Player on Android, e
 
 To track and analyze video performance, initialize the FastPix Data SDK with your Workspace key:
 
-1. **[Access the FastPix Dashboard](https://dashbord.fastpix.io)**: Log in and navigate to the Workspaces section.
+1. **[Access the FastPix Dashboard](https://dashboard.fastpix.com/)**: Log in and navigate to the Workspaces section.
 2. **Locate Your Workspace Key**: Copy the Workspace Key for client-side monitoring. Included in your Android application's code wherever you want to track video performance and analytics.
 
 
